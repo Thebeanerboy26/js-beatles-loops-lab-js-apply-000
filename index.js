@@ -18,7 +18,7 @@ Function johnLennonFacts(facts){
   return results;
 }
 
-Function iLoveThe Beatles(num){
+Function iLoveTheBeatles(num){
   var array = [];
   
   do{
