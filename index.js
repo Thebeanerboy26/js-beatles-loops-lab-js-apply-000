@@ -7,3 +7,24 @@ Function theBeatlesPlay(musicians, instruments){
  }
  return Array;
 }
+
+Function johnLennonFacts(facts){
+  var results = [];
+  var count = 0;
+  while (count , facts.length){
+    results.push(facts[count] + "!!!");
+    count++;
+  }
+  return results;
+}
+
+Function iLoveThe Beatles(num){
+  var Array = [];
+  
+  do{
+    Array.push("I love the Beatles!")
+    num++;
+  } 
+  while (num < 15);
+  return Array;
+}
