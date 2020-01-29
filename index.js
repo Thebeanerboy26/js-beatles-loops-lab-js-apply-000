@@ -1,11 +1,11 @@
 // add solution here
 
 Function theBeatlesPlay(musicians, instruments){
-  var Array = [];
+  var array = [];
  for (var i = 0; i < musicians.length; i++){
     array.push(musicians[i] + 'plays' + instruments[i])
  }
- return Array;
+ return array;
 }
 
 Function johnLennonFacts(facts){
@@ -19,12 +19,12 @@ Function johnLennonFacts(facts){
 }
 
 Function iLoveThe Beatles(num){
-  var Array = [];
+  var array = [];
   
   do{
-    Array.push("I love the Beatles!")
+    array.push("I love the Beatles!")
     num++;
   } 
   while (num < 15);
-  return Array;
+  return array;
 }
