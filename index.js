@@ -1,5 +1,5 @@
 Function theBeatlesPlay(musicians,instruments) {
-  var Array = [];
+  var B = []
  for (var i = 0; i < musicians.length; i++){
     Array.push(musicians[i] + 'plays' + instruments[i]);
  }
