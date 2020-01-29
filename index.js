@@ -3,10 +3,10 @@ Function theBeatlesPlay(musicians,instruments) {
  for (var i = 0; i < musicians.length; i++){
     Array.push(musicians[i] + 'plays' + instruments[i]);
  }
- return array;
+ return Array;
 }
 
-Function johnLennonFacts(array) {
+Function johnLennonFacts(Array) {
   var results = [];
   var count = 0;
   while (count < facts.length){
