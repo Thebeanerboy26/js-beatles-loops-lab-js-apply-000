@@ -1,12 +1,12 @@
-Function theBeatlesPlay(musicians,instruments) {
-  var B = []
+function theBeatlesPlay(musicians,instruments) {
+  var array = [];
  for (var i = 0; i < musicians.length; i++){
-    B.push(musicians[i] + 'plays' + instruments[i]);
+    array.push(musicians[i] + 'plays' + instruments[i]);
  }
- return B;
+ return array;
 }
 
-Function johnLennonFacts(Array) {
+function johnLennonFacts(array) {
   var results = [];
   var count = 0;
   while (count < facts.length){
@@ -16,13 +16,15 @@ Function johnLennonFacts(Array) {
   return results;
 }
 
-Function iLoveTheBeatles(num) {
-  var Array = [];
+function iLoveTheBeatles(num) {
+  var array = [];
   
   do{
-    Array.push("I love the Beatles!")
+    array.push("I love the Beatles!")
     num++;
   } 
   while (num < 15);
-  return Array;
+  return array;
 }
+
+
