@@ -1,9 +1,9 @@
 Function theBeatlesPlay(musicians,instruments) {
   var B = []
  for (var i = 0; i < musicians.length; i++){
-    Array.push(musicians[i] + 'plays' + instruments[i]);
+    B.push(musicians[i] + 'plays' + instruments[i]);
  }
- return Array;
+ return B;
 }
 
 Function johnLennonFacts(Array) {
