@@ -13,7 +13,7 @@ Function johnLennonFacts(Array) {
     results.push(facts[count] + "!!!");
     count++;
   }
-  return array;
+  return results;
 }
 
 Function iLoveTheBeatles(num) {
