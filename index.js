@@ -1,6 +1,6 @@
 // add solution here
 
-Function theBeatlesPlay(musicians, instruments);{
+Function theBeatlesPlay(musicians, instruments) {
   var array = [];
  for (var i = 0; i < musicians.length; i++){
     array.push(musicians[i] + 'plays' + instruments[i]);
@@ -8,7 +8,7 @@ Function theBeatlesPlay(musicians, instruments);{
  return array;
 }
 
-Function johnLennonFacts(facts);{
+Function johnLennonFacts(facts) {
   var results = [];
   var count = 0;
   while (count < facts.length){
@@ -18,7 +18,7 @@ Function johnLennonFacts(facts);{
   return results;
 }
 
-Function iLoveTheBeatles(num);{
+Function iLoveTheBeatles(num) {
   var array = [];
   
   do{
