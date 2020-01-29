@@ -10,10 +10,7 @@ function johnLennonFacts(array) {
   var results = [];
   var count = 0;
   const facts = [
-  "He was the last Beatle to learn to drive",
-  "He was never a vegetarian",
-  "He was a choir boy and boy scout",
-  "He hated the sound of his own voice"
+  "foo","bar"
 ];
   while (count < facts.length){
     results.push(facts[count] + "!!!");
